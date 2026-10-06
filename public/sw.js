@@ -1,5 +1,5 @@
-const CACHE_NAME = 'study-spark-v1';
-const APP_SHELL = ['/','/manifest.webmanifest','/icon.svg','/icon-192.png','/icon-512.png'];
+const CACHE_NAME = 'study-spark-pwa-v2';
+const APP_SHELL = ['/','/manifest.webmanifest','/icon-192.png','/icon-512.png'];
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
